@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>출입 명부 확인</title>
+</head>
+<body>
+    <h2>QR 코드가 스캔되었습니다.</h2>
+    <p>참가자의 정보를 입력하세요.</p>
+    <form action="/check" method="post">
+        <label>성명: <input type="text" name="name"></label><br>
+        <label>소속: <input type="text" name="affiliation"></label><br>
+        <label>직위: <input type="text" name="position"></label><br>
+        <input type="submit" value="확인">
+    </form>
+</body>
+</html>
